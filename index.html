@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Nathan's Portfolio</li>
+            <li><a href="https://github.com/NathanPerrine/" target="_blank">My Github</a></li>
+            <li><a href="http://www.google.com" target="_blank">Google</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px">Nathan Perrine</h1>
+            <p>Programmer In Training</p>
+        </div>
+    </div>
+
+    <main>
+        <div id="main">
+            <article class="main-article">
+                <h1>Background</h1>
+                <strong><small>Background info, School and Home. </small></strong>
+                <p>
+                    My name is Nathan Perrine, I'm 32 years old, live with my long term girlfriend and two cats, and I have a mild gaming and Diet Coke addiction. I've lived in Ohio all my life, but I've traveled to Canada and Mexico, and various states for vacations. I went to college after High School and while I did well enough, a lack of dedication and mental health issues kept me from completing my degree. Over the years I tried to teach myself programming from various online sources and while I learned a good deal of information I didn't have the time to properly apply it and move to the next level.
+                </p>    
+                <p>
+                    Just around Christmas last year the company I had worked at the last six years was bought out. All existing employees were told our wages were being reduced to their company sandards (just above minimum wage) and we no longer qualified for vacation or benefits for another year, including the vacation I was scheduled to leave on in two weeks that was approved for the last nine months. My boss, two coworkers and myself decided together it wasn't worth it and we all quit. And that brought me here, with the free time after vacation I was trying to decide how to move forward. I could go to any store or restaurant near me and get a job but I wanted to find something better that can properly support my family. After doing a lot of reading I had decided the best way forward for me would be a bootcamp.
+                </p>
+
+            </article>
+
+            <article class="main-article hobbies">
+                <div>
+                    <h1>Hobbies</h1>
+                    <strong><small>Gaming, Board Games, Reading </small></strong>
+                </div>
+                <div id="hobbycontainer">
+                    <div id="hobby-first">
+                        <img src="images/catkeyboard.jpg" id="catkeyboard">
+                        <figcaption><em>She loves to make it difficult to play.</em></figcaption>
+                    </div>
+                    <div id="hobby-second">
+                        <p>
+                            My primary hobby would definitely be gaming. Mostly PC or console games, but I always enjoy playing a board game with friends when we have time together. My current obsessions would be: 
+                        </p>
+                        <ul>
+                            <li>Path of Exile</li>
+                            <li>Oxygen Not Included</li>
+                            <li>Rimworld</li>
+                            <li>Magic the Gathering: Arena</li>
+                            <li>Tales of Arise</li>
+                            <li>Final Fantasy XIV</li>
+                        </ul>
+                        <p>I don't read as much as I probably should, but my favorite series is The Kingkiller Chronicles by Patrick Rothfuss, and I recently started The Malazan Book of the Fallen by Steven Erikson. </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="main-article">
+                <h1>Programming</h1>
+                <p>
+                    As mentioned above, I do have a little programming experience. In college I took a java course, I was terrible at it but when I've dabbled in java recently it came much easier. I took a python course through Coursera several years ago and my capstone project there involved scraping a bunch of trophy data from Playstation trophy tracking websites and storing it in a SQL server. And about ten years ago I published a simple free game on the Google Play store, it was a small auto scrolling bullet-hell made in GameMaker Studio.
+                </p>
+            </article>
+        </div>
+
+        <div id="side">
+            <article class="side-article" id="profile">
+                <img id="profile-image" src="images/travelday.jpeg">
+                <div id="profile-details">
+                    <h2>Nathan Perrine</h2>
+                    <ul>
+                        <li>123 Fake St.</li>
+                        <li>Toledo, Ohio</li>
+                        <li>888-888-8888</li>
+                        <li><a href="mailto:nathan.perrine@gmail.com">Nathan.perrine@gmail.com</a></li>
+                    </ul>
+                </div>
+            </article>
+            <article class="side-article">
+                <h1>Profile</h1>
+                <p>Student at Coding Temple.</p>
+                <div id="catperson">
+                    <p>Cat person, but loves dogs.</p>
+                    <img src="images/catcouch.jpg" id="catcouch">
+                </div>
+                <p>Not married but together 6 years. </p>
+                
+            </article>
+            <article class="side-article">
+                <div>
+                    <h1>Contact Me</h1>
+                    <strong><small>Please contact me with any opportunities!</small></strong>
+                    <br>
+                    <form action="mailto:nathan.perrine@gmail.com" method="POST">
+                        <label for="name"><strong>Name</strong></label>
+                        <br>
+                        <input type="text" id="name" placeholder="Enter Name Here" cols="15">
+                        <br>
+                        <label for="body"><strong>Message</strong></label>
+                        <br>
+                        <textarea id="body" placeholder="Enter message here." cols="15"></textarea>
+                        <br>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <div>
+            &copy Nathan P 2022
+        </div>
+    </footer>
+
+</body>
+</html>
