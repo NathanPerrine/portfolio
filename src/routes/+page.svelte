@@ -1,5 +1,7 @@
 <h1 class="text-3xl font-bold underline">
-  Hello world!!
+  <p class='text-green-400'>
+    Hello world!!
+  </p>
 </h1>
 
 <style lang="postcss">
