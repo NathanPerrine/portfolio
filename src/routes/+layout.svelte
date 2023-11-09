@@ -27,7 +27,7 @@
     </button>
   </div>
 
-  <Header {y} {innerHeight}/>
+  <Header y={y} {innerHeight}/>
   <slot />
   <Footer />
 
