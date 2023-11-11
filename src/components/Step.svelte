@@ -11,9 +11,9 @@
   <slot/>
   <div class="flex flex-1 justify-between gap-4 items-center">
     <div
-      class="ml-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:right-full after:w-full after:h-full rounded-lg after:bg-violet-400 after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden"
+      class="ml-auto cursor-pointer hover:text-slate-950 duration-200 after:absolute after:top-0 after:right-full after:w-full after:h-full rounded-lg after:bg-violet-400 after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden"
     >
-      <p class="relative mx-2 z-4">Go to &rarr;</p>
+      <p class="mx-2 z-4">Go to &rarr;</p>
     </div>
   </div>
 </a>
