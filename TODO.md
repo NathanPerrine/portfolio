@@ -10,7 +10,5 @@
         * can't remove relative or div doesn't work as expected
     * [x] about me entire section
     * [x] want to know more section
-  * [ ] disappears on wider resolutions
-* [ ] full screen - weird purple border on left, to top button disappears
-  * go to ->, hovering over that has large purple window...
-    * possibly from removing 'relative' above
+  * [x] disappears on wider resolutions
+    * had to set max-w same as rest of layout.svelte, expanding the width of the window expanded up to 1400px, but the full width div kept increasing in size and moving out of view
