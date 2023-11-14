@@ -1,7 +1,8 @@
 * [ ] get in touch button - component
 * [ ] steps - component, doesn't seem complete
-* [ ] update about me
-* [ ] remove watch video button
+* [x] update about me
+* [x] remove watch video button
+* [ ] contact button in header
 * to top button
   * [x] can't be clicked on after about section starts
   * [x] z-index doesn't show over all other buttons
