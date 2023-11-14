@@ -1,30 +1,7 @@
 <script>
   import Step from "./Step.svelte";
-
-  let steps = [
-    {name: 'Project1', icon: 'fa-solid fa-cart-shopping', description: 'Smoljames Store is a a merchanising store created with Next.js, Commerce.js & Stripe! Commerce.js is a CMS for managing project and Stripe is used for all transaction handling.'},
-    {name: 'Project2', icon: 'fa-solid fa-list-check', description: 'Test for model robustness with customized test profiles and receive exhaustive reporting on the performance and potential vulnerabilities of your model.'},
-    {name: 'Project3', icon: 'fa-solid fa-diagram-project', description: 'Augment your datasets with our filters and dataset manipulations to ensure your models are trained on the highest quality datasets (coming soon).'}
-  ]
-
-  let benefits = [
-    {
-      name: "developer",
-      description: "I am an ambitious full-stack developer with a strong foundation in Python and JavaScript, along with expertise in HTML, CSS, and various frameworks. I am on the lookout for a role that not only challenges me but also allows me to leverage the latest technologies. Having taught myself to code through free online resources, I discovered a profound passion for the creative problem-solving involved in crafting innovative online experiences. I further honed my skills through a rigorous bootcamp, where I delved into full-stack development."
-    },
-    {
-      name: "curious",
-      description: "My approach is characterized by quiet confidence and an insatiable curiosity, propelling me to continually enhance my skill set. I thrive on learning about new technologies and seamlessly integrating them into my toolkit. I am excited about the prospect of contributing my technical expertise to a dynamic and forward-thinking team, driving impactful projects and pushing the boundaries of what's possible in web development."
-    },
-    {
-      name: "designer",
-      description: "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
-    },
-    {
-      name: "communicator",
-      description: "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
-    },
-  ];
+  import benefits from "../lib/data/benefits.json";
+  import projects from "../lib/data/projects.json";
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -63,21 +40,10 @@
       <p>Watch the video</p>
     </a> -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-      <Step step={steps[0]}>
-        <p>
-          Smoljames Store is a a merchanising store created with <strong class="text-violet-400">Next.js, Commerce.js, Stripe & Node.js + Express.js!</strong> Commerce.js is a product CMS and Stripe is used for all transaction handling.
-        </p>
-      </Step>
-      <Step step={steps[1]}>
-        <p>
-          Ultimate Todos is a Full Stack <strong class="text-violet-400">Next.js</strong>, <strong class="text-violet-400">Node.js + Express.js</strong> & <strong class="text-violet-400">Firebase</strong> CRUD application that allows a user to login, manage a tidy and efficacious todo list, and persist this information across devices.
-        </p>
-      </Step>
-      <Step step={steps[2]}>
-        <p>
-          The Pokédex is a <strong class="text-violet-400">SvelteKit & TailwindCSS</strong> web application, hosted on <strong class="text-violet-400">Netlify</strong>, that consumes and caches the <strong class="text-violet-400">Pokémon API</strong> to display all Pokémon information. Gotta catch them all!
-        </p>
-      </Step>
+      {#each projects as project}
+        <Step step={project}>
+        </Step>
+      {/each}
     </div>
   </section>
 

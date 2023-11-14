@@ -8,10 +8,10 @@
   </div>
 
   <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">{step.name}</h3>
-  <slot/>
+  <p>{@html step.description}</p>
   <div class="flex flex-1 justify-between gap-4 items-end">
     <div
-      class="ml-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:right-full after:w-full after:h-full rounded-lg after:bg-violet-400 after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden"
+      class="ml-auto cursor-pointer group-hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:right-full after:w-full after:h-full rounded-lg after:bg-violet-400 after:duration-200 group-hover:after:translate-x-full after:z-[-1] overflow-hidden"
     >
       <p class="mx-2 z-4">Go to &rarr;</p>
     </div>

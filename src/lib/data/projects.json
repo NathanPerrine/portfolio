@@ -1,0 +1,20 @@
+[
+  {
+    "name": "React portfolio",
+    "icon": "fa-brands fa-react",
+    "href": "https://nathanperrine.github.io/react_portfolio/#/",
+    "description": "A sample portfolio site utilizing <strong class=\"text-violet-400\">React</strong> instead of Sveltekit. Utilizes <strong class=\"text-violet-400\">Sanity</strong> CMS to display data and showcases higher order components"
+  },
+  {
+    "name": "Ultimate Todos",
+    "icon": "fa-solid fa-list-check",
+    "href": "",
+    "description": "Ultimate Todos is a Full Stack <strong class=\"text-violet-400\">Next.js</strong>, <strong class=\"text-violet-400\">Node.js + Express.js</strong> & <strong class=\"text-violet-400\">Firebase</strong> CRUD application that allows a user to login, manage a tidy and efficacious todo list, and persist this information across devices."
+  },
+  {
+    "name": "Pokedex",
+    "icon": "fa-solid fa-diagram-project",
+    "href": "",
+    "description": "The Pokédex is a <strong class=\"text-violet-400\">SvelteKit & TailwindCSS</strong> web application, hosted on <strong class=\"text-violet-400\">Netlify</strong>, that consumes and caches the <strong class=\"text-violet-400\">Pokémon API</strong> to display all Pokémon information. Gotta catch them all!"
+  }
+]
