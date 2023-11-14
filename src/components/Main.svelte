@@ -79,7 +79,7 @@
     </h5>
     <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto w-full">
       <table class="bg-white text-slate-700 rounded text-center">
-        <thead class="border-b border-xolid border-slate-200">
+        <thead class="border-b border-solid border-slate-400">
           <tr class="">
             <th/>
             <th class="whitespace-nowrap p-2 px-4">Candidate #1</th>
