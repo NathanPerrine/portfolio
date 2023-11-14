@@ -9,16 +9,19 @@
 
   let benefits = [
     {
-      metric: "10x",
-      name: "a self taught developer",
-      description: "I taught myself to code using free online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, backend programming, design, cloud services and much much more.",
+      name: "developer",
+      description: "I am an ambitious full-stack developer with a strong foundation in Python and JavaScript, along with expertise in HTML, CSS, and various frameworks. I am on the lookout for a role that not only challenges me but also allows me to leverage the latest technologies. Having taught myself to code through free online resources, I discovered a profound passion for the creative problem-solving involved in crafting innovative online experiences. I further honed my skills through a rigorous bootcamp, where I delved into full-stack development."
     },
     {
-      name: "a product design & UX finatic",
+      name: "curious",
+      description: "My approach is characterized by quiet confidence and an insatiable curiosity, propelling me to continually enhance my skill set. I thrive on learning about new technologies and seamlessly integrating them into my toolkit. I am excited about the prospect of contributing my technical expertise to a dynamic and forward-thinking team, driving impactful projects and pushing the boundaries of what's possible in web development."
+    },
+    {
+      name: "designer",
       description: "Carefully crafting and designing amazing user experiences allows me to express and experiment with every morsel of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences.",
     },
     {
-      name: "an excellent communicator",
+      name: "communicator",
       description: "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team.",
     },
   ];
@@ -36,7 +39,7 @@
         My <span class="text-violet-400">favorite tech</span> inclues Python, Sveltekit, TailwindCSS, JavaScript, PostgreSQL or Firebase/Firestore!
       </p>
 
-      <a href="https://www.linkedin.com/in/nathan-perrine/" target="_blank" class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer">
+      <a href="https://www.linkedin.com/in/nathan-perrine/" target="_blank" class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer">
         <div class="absolute top-0 right-full w-full h-full bg-slate-950 opacity-20 group-hover:translate-x-full z-10 duration-200"></div>
         <h4 class="relative z-9 poppins">Get in touch &rarr;</h4>
       </a>
