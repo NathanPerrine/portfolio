@@ -3,8 +3,6 @@
   import Header from "../components/Header.svelte";
   import "../app.css";
   let y;
-  let innerWidth = 0;
-  let innerHeight = 0;
 
   function goTop() {
       document.body.scrollIntoView();
@@ -25,9 +23,9 @@
     </button>
   </div>
 
-  <Header y={y} {innerHeight}/>
+  <Header y={y}/>
   <slot />
   <Footer />
 
 </div>
-<svelte:window bind:scrollY={y} bind:innerHeight bind:innerWidth />
+<svelte:window bind:scrollY={y} />
