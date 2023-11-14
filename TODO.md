@@ -1,5 +1,5 @@
 * [ ] get in touch button - component
-* [ ] steps - component, doesn't seem complete
+* [x] steps - component, doesn't seem complete
 * [x] update about me
 * [x] remove watch video button
 * [ ] contact button in header
