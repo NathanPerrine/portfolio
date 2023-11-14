@@ -1,8 +1,7 @@
-* [ ] get in touch button - component
 * [x] steps - component, doesn't seem complete
 * [x] update about me
 * [x] remove watch video button
-* [ ] contact button in header
+* [x] contact button in header
 * to top button
   * [x] can't be clicked on after about section starts
   * [x] z-index doesn't show over all other buttons
@@ -14,3 +13,6 @@
     * [x] want to know more section
   * [x] disappears on wider resolutions
     * had to set max-w same as rest of layout.svelte, expanding the width of the window expanded up to 1400px, but the full width div kept increasing in size and moving out of view
+
+## Project section
+* add buttons to sort projects based on category
