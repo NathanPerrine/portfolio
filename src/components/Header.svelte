@@ -1,5 +1,6 @@
 <script>
   export let y;
+  import { base } from "$app/paths";
 
   let tabs = [
     {name: 'Home', link: '/'},
@@ -21,7 +22,7 @@
 
   <div class="sm:flex ml-auto pr-4 items-center gap-4 hidden">
     {#each tabs as tab, index}
-      <a data-sveltekit-replacestate href={tab.link} class="duration-200 hover:text-violet-400">
+      <a data-sveltekit-replacestate href="{base}{tab.link}" class="duration-200 hover:text-violet-400">
         <p>{tab.name}</p>
       </a>
     {/each}

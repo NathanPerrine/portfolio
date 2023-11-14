@@ -5,6 +5,7 @@ const config = {
   kit: {
   adapter: adapter()
   },
-  preprocess: vitePreprocess()
+  preprocess: vitePreprocess(),
+  paths: {base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',}
 };
 export default config;
