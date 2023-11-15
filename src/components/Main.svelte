@@ -2,6 +2,10 @@
   import Step from "./Step.svelte";
   import benefits from "../lib/data/benefits.json";
   import projects from "../lib/data/projects.json";
+
+  const projectFilters = ['All', 'React', 'Svelte', 'Python', 'Web dev']
+  $: active = 'All'
+  $: filteredProjects = projects.filter((project) => project.tags.includes(active))
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -35,12 +39,18 @@
         Curious to <span class="poppins text-violet-400">see</span> my work?
       </h3>
     </div>
+
+    <div class="flex flex-wrap flex-1 flex-row justify-center gap-4">
+      {#each projectFilters as filter}
+        <button on:click={() => (active = filter)} class={"btn w-24 " + (active === filter ? "poppins text-violet-400 border border-violet-950" : "" )}>{filter}</button>
+      {/each}
+    </div>
     <!-- <a href="#introPage" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
       <i class="fa-regular fa-circle-play"/>
       <p>Watch the video</p>
     </a> -->
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-      {#each projects as project}
+      {#each filteredProjects as project}
         <Step step={project}>
         </Step>
       {/each}
