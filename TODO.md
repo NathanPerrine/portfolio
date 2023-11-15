@@ -16,3 +16,12 @@
 
 ## Project section
 * add buttons to sort projects based on category
+  * [x] add buttons
+  * [x] buttons filter projects
+* transitions
+  * [x] in/out transitions
+* layout
+  * had to add a container div, layout isn't as even
+    * [ ] make divs same size
+  * [ ] set fixed height for section
+  * [ ] description overflow
