@@ -3,24 +3,66 @@
     "name": "React portfolio",
     "icon": "fa-brands fa-react",
     "href": "https://nathanperrine.github.io/react_portfolio/#/",
+    "tags": [
+      "All",
+      "React",
+      "Web dev"
+    ],
     "description": "A sample portfolio site utilizing <strong class=\"text-violet-400\">React</strong> instead of Sveltekit. Utilizes <strong class=\"text-violet-400\">Sanity</strong> CMS to display data and showcases higher order components"
   },
   {
     "name": "Link Tree clone",
     "icon": "fa-solid fa-link",
     "href": "",
-    "description": "Clone tree is a Full Stack CRUd application utilizing <strong class=\"text-violet-400\">Sveltekit, Firebase Tailwind CSS and daisyUI</strong> to create a fully featured web app that allows users to create accounts linked to their gmail account and share all their social media links."
+    "tags": [
+      "All",
+      "Svelte",
+      "Sveltekit",
+      "Web dev"
+    ],
+    "description": "Clone tree is a Full Stack CRUD application utilizing <strong class=\"text-violet-400\">Sveltekit, Firebase, Tailwind CSS and daisyUI</strong> to create a web app that allows users to create accounts linked to their gmail account and share all their social media links."
   },
   {
     "name": "Ultimate Todos",
     "icon": "fa-solid fa-list-check",
     "href": "",
+    "tags": [
+      "All",
+      "Web dev",
+      ""
+    ],
     "description": "Ultimate Todos is a Full Stack <strong class=\"text-violet-400\">Next.js</strong>, <strong class=\"text-violet-400\">Node.js + Express.js</strong> & <strong class=\"text-violet-400\">Firebase</strong> CRUD application that allows a user to login, manage a tidy and efficacious todo list, and persist this information across devices."
   },
   {
     "name": "Pokedex",
     "icon": "fa-solid fa-diagram-project",
     "href": "",
+    "tags": [
+      "All",
+      "Web dev",
+      ""
+    ],
     "description": "The Pokédex is a <strong class=\"text-violet-400\">SvelteKit & TailwindCSS</strong> web application, hosted on <strong class=\"text-violet-400\">Netlify</strong>, that consumes and caches the <strong class=\"text-violet-400\">Pokémon API</strong> to display all Pokémon information. Gotta catch them all!"
+  },
+  {
+    "name": "Sample Python Project",
+    "icon": "fa-brands fa-python",
+    "href": "",
+    "tags": [
+      "All",
+      "Python",
+      ""
+    ],
+    "description": "Python project placeholder"
+  },
+  {
+    "name": "placeholder",
+    "icon": "",
+    "href": "",
+    "tags": [
+      "",
+      ""
+    ],
+    "description": ""
   }
 ]
