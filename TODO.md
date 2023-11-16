@@ -22,6 +22,8 @@
   * [x] in/out transitions
 * layout
   * had to add a container div, layout isn't as even
-    * [ ] make divs same size
-  * [ ] set fixed height for section
-  * [ ] description overflow
+    * [x] make divs same size
+  * [x] set fixed height for section
+  * [x] description overflow
+    * new div on <p> tag for description, set overflow
+    * large screens: line clamp default to 11 lines, hover removed line clamping
