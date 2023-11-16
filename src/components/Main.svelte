@@ -41,7 +41,7 @@
 		</div>
 	</section>
 
-	<section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
+	<section id="projects" class="lg:min-h-screen pt-20 lg:pt-16 flex flex-col gap-12">
 		<div class="flex flex-col gap-2 text-center">
 			<h6 class="text-lg sm:text-xl md:text-2xl">A few of my creative endeavors.</h6>
 			<h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">
@@ -49,24 +49,26 @@
 			</h3>
 		</div>
 
-		<div class="flex flex-wrap flex-1 flex-row justify-center gap-4">
+		<div class="flex flex-wrap flex-row justify-center gap-4">
 			{#each projectFilters as filter}
-				<button
-					on:click={() => (active = filter)}
-					class={'btn bg-slate-950 hover:border-violet-400 w-24 duration-500 ' +
-						(active === filter
-							? 'poppins text-violet-400 border border-violet-400'
-							: 'border border-violet-700')}
-				>
-					{filter}
-				</button>
-			{/each}
-		</div>
+			<button
+			on:click={() => (active = filter)}
+			class={'btn bg-slate-950 hover:border-violet-400 w-24 duration-500 ' +
+					(active === filter
+					? 'poppins text-violet-400 border border-violet-400'
+					: 'border border-violet-700')}
+			>
+			{filter}
+		</button>
+		{/each}
+	</div>
 
-		<div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-			{#each filteredProjects as project}
-				<Step step={project} bind:active />
-			{/each}
+		<div class="flex flex-1 flex-row">
+			<div class="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-12 lg:gap-10 mx-8">
+				{#each filteredProjects as project}
+					<Step step={project} bind:active />
+				{/each}
+			</div>
 		</div>
 	</section>
 

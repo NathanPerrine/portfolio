@@ -20,7 +20,7 @@
       "Sveltekit",
       "Web dev"
     ],
-    "description": "Clone tree is a Full Stack CRUd application utilizing <strong class=\"text-violet-400\">Sveltekit, Firebase Tailwind CSS and daisyUI</strong> to create a fully featured web app that allows users to create accounts linked to their gmail account and share all their social media links."
+    "description": "Clone tree is a Full Stack CRUD application utilizing <strong class=\"text-violet-400\">Sveltekit, Firebase, Tailwind CSS and daisyUI</strong> to create a web app that allows users to create accounts linked to their gmail account and share all their social media links."
   },
   {
     "name": "Ultimate Todos",

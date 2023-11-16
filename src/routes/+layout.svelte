@@ -25,7 +25,7 @@
 
   <Header y={y}/>
   <slot />
-  <Footer />
 
 </div>
+<Footer />
 <svelte:window bind:scrollY={y} />
