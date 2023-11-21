@@ -3,7 +3,7 @@
 	import benefits from '../lib/data/benefits.json';
 	import projects from '../lib/data/projects.json';
 
-	const projectFilters = ['All', 'React', 'Svelte', 'Python', 'Web dev'];
+	const projectFilters = ['All', 'React', 'Svelte', 'Web dev'];
 	$: active = 'All';
 	$: filteredProjects = projects.filter((project) => project.tags.includes(active));
 </script>
