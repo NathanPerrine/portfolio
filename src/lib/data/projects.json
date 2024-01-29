@@ -1,5 +1,17 @@
 [
   {
+    "name": "Pokedex",
+    "icon": "fa-solid fa-diagram-project",
+    "href": "",
+    "tags": [
+      "All",
+      "Web dev",
+      "Sveltekit",
+      "SCSS"
+    ],
+    "description": "The Pokédex is a <strong class=\"text-violet-400\">SvelteKit & SCSS</strong> web application, hosted on <strong class=\"text-violet-400\">Vercel</strong>, that consumes and caches the <strong class=\"text-violet-400\">Pokémon API</strong> to display all Pokémon information. Gotta catch them all!"
+  },
+  {
     "name": "React portfolio",
     "icon": "fa-brands fa-react",
     "href": "https://nathanperrine.github.io/react_portfolio/#/",
@@ -32,16 +44,5 @@
       ""
     ],
     "description": "Ultimate Todos is a Full Stack <strong class=\"text-violet-400\">Next.js</strong>, <strong class=\"text-violet-400\">Node.js + Express.js</strong> & <strong class=\"text-violet-400\">Firebase</strong> CRUD application that allows a user to login, manage a tidy and efficacious todo list, and persist this information across devices."
-  },
-  {
-    "name": "Pokedex",
-    "icon": "fa-solid fa-diagram-project",
-    "href": "",
-    "tags": [
-      "All",
-      "Web dev",
-      ""
-    ],
-    "description": "The Pokédex is a <strong class=\"text-violet-400\">SvelteKit & TailwindCSS</strong> web application, hosted on <strong class=\"text-violet-400\">Netlify</strong>, that consumes and caches the <strong class=\"text-violet-400\">Pokémon API</strong> to display all Pokémon information. Gotta catch them all!"
   }
 ]
