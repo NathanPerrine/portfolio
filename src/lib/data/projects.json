@@ -2,7 +2,7 @@
   {
     "name": "Pokedex",
     "icon": "fa-solid fa-diagram-project",
-    "href": "",
+    "href": "https://sveltekit-pokedex-np.vercel.app/",
     "tags": [
       "All",
       "Web dev",
