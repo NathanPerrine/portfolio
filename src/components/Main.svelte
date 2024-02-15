@@ -1,5 +1,5 @@
 <script>
-	import Step from './Step.svelte';
+	import Project from './Project.svelte';
 	import benefits from '../lib/data/benefits.json';
 	import projects from '../lib/data/projects.json';
 
@@ -66,7 +66,7 @@
 		<div class="flex flex-1 flex-row">
 			<div class="grid grid-cols-1 lg:grid-cols-3 lg:grid-rows-2 gap-12 lg:gap-10 mx-8">
 				{#each filteredProjects as project}
-					<Step step={project} bind:active />
+					<Project project={project} bind:active />
 				{/each}
 			</div>
 		</div>
