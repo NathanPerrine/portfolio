@@ -22,7 +22,7 @@
       "Web dev",
       "Sveltekit"
     ],
-    "description": "Ultimate Todos is a Full Stack <strong class=\"text-violet-400\">Next.js</strong>, <strong class=\"text-violet-400\">Sveltekit</strong> application that allows users to create a todo list in the style of a kanban board. Features a fully drag and droppable interface and showcases the new <strong class=\"text-violet-400\">Svelte 5 runes</strong>."
+    "description": "Ultimate Todos is a Full Stack <strong class=\"text-violet-400\">Sveltekit</strong> & <strong class=\"text-violet-400\">Firebase</strong> CRUD application that allows users to login, manage a tidy and efficacious todo list, and persist this information across devices. Features a fully drag and droppable interface and showcases the new <strong class=\"text-violet-400\">Svelte 5 runes</strong>."
   },
   {
     "name": "React portfolio",
