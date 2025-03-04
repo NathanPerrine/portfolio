@@ -17,7 +17,7 @@
 				Full Stack <span class="poppins text-violet-400">Developer</span>
 			</h2>
 			<p class="text-base sm:text-lg md:text-xl">
-				My <span class="text-violet-400">favorite tech</span> inclues Python, Sveltekit, TailwindCSS,
+				My <span class="text-violet-400">favorite tech</span> inclues Python, Sveltekit, SCSS,
 				JavaScript, PostgreSQL or Firebase/Firestore!
 			</p>
 

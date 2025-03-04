@@ -1,5 +1,44 @@
 [
   {
+    "name": "On Time Marine",
+    "icon": "fa-solid fa-ship",
+    "href": "https://np-booking-app.vercel.app/",
+    "repo": "https://github.com/NathanPerrine/booking-app",
+    "tags": [
+      "All",
+      "Web dev",
+      "Sveltekit",
+      "SCSS"
+    ],
+    "description": "On Time Marine is a <strong class=\"text-violet-400\">SvelteKit</strong> and <strong class=\"text-violet-400\">Firebase</strong>-powered booking application designed for a boat repair small business. It streamlines service requests while allowing users to invoice, add images, track hours, and generate PDFs."
+  },
+  {
+    "name": "TRO-DB",
+    "icon": "fa-solid fa-dragon",
+    "href": "https://tro-db.vercel.app/",
+    "repo": "https://github.com/NathanPerrine/TRO-DB",
+    "tags": [
+      "All",
+      "Web dev",
+      "Sveltekit",
+      "SCSS"
+    ],
+    "description": "TRO-DB is a <strong class=\"text-violet-400\">SvelteKit</strong>-powered fan wiki for an old MMO <strong class=\"text-violet-400\">The Realm Online</strong>, with data managed in <strong class=\"text-violet-400\">Sanity.io</strong>. A passion project built to preserve and document the game's history!"
+  },
+  {
+    "name": "Infinite Stitch",
+    "icon": "fa-solid fa-infinity",
+    "href": "https://infinite-stitch.vercel.app/",
+    "repo": "https://github.com/NathanPerrine/InfiniteStitch",
+    "tags": [
+      "All",
+      "Web dev",
+      "Sveltekit",
+      "SCSS"
+    ],
+    "description": "Infinite Stitch is a <strong class=\"text-violet-400\">SvelteKit</strong>-powered webpage designed for a small business to showcase crochet designs and provide a seamless contact form for commission requests."
+  },
+  {
     "name": "Pokedex",
     "icon": "fa-solid fa-diagram-project",
     "href": "https://sveltekit-pokedex-np.vercel.app/",
@@ -35,18 +74,5 @@
       "Web dev"
     ],
     "description": "A sample portfolio site utilizing <strong class=\"text-violet-400\">React</strong> instead of Sveltekit. Utilizes <strong class=\"text-violet-400\">Sanity</strong> CMS to display data and showcases higher order components"
-  },
-  {
-    "name": "Link Tree clone",
-    "icon": "fa-solid fa-link",
-    "href": "https://github.com/NathanPerrine/svelte_tree",
-    "repo": "https://github.com/NathanPerrine/svelte_tree",
-    "tags": [
-      "All",
-      "Svelte",
-      "Sveltekit",
-      "Web dev"
-    ],
-    "description": "Clone tree is a Full Stack CRUD application utilizing <strong class=\"text-violet-400\">Sveltekit, Firebase, Tailwind CSS and daisyUI</strong> to create a web app that allows users to create accounts linked to their gmail account and share all their social media links."
   }
 ]
